@@ -1,0 +1,15 @@
+enabled: false
+
+replicaCount: 1
+
+image:
+  tag: "0.0.1"
+
+ingress:
+  enabled: true
+  hosts:
+    - host: mix-backend.papermint.io
+
+# env:
+#   - name: COLOR
+#     value: RED
